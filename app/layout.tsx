@@ -1,4 +1,5 @@
 import { workSans } from '@lib/fonts';
+import './globals.css';
 
 export default function RootLayout({
     children,

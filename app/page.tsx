@@ -1,3 +1,4 @@
+import { Footer, Header, Hero, Main } from '@lib/components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -5,5 +6,12 @@ export const metadata: Metadata = {
 };
 
 export default function Landing() {
-    return <></>;
+    return (
+        <>
+            <Header />
+            <Main>
+                <Hero />
+            </Main>
+        </>
+    );
 }
