@@ -7,3 +7,6 @@ export { default as PublicWrapperStyles } from '../styles/layout/public/PublicWr
 
 // Root
 export { default as HeroStyles } from '../styles/Hero.module.css';
+
+// UI
+export { default as BrandStyles } from '../styles/ui/Brand.module.css';

@@ -7,3 +7,6 @@ export { default as PublicWrapper } from '../components/layout/public/PublicWrap
 
 // Root
 export { default as Hero } from '../components/Hero';
+
+// UI
+export { default as Brand } from '../components/ui/Brand';

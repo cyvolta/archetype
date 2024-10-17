@@ -12,4 +12,7 @@ declare global {
         id: string;
         style?: string;
     }
+    interface HeaderProps {
+        children: ReactNode;
+    }
 }
