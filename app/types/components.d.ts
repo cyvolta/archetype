@@ -20,10 +20,19 @@ declare global {
         style?: string;
         OnClickCallback?: () => void;
     }
+    interface RowAlignRightProps {
+        children: ReactNode;
+        style?: string;
+        OnClickCallback?: () => void;
+    }
     interface NavigationProps {
         children: ReactNode;
     }
     interface ColumnAlignLeftProps {
+        children: ReactNode;
+        style?: string;
+    }
+    interface ColumnAlignRightProps {
         children: ReactNode;
         style?: string;
     }
@@ -32,5 +41,12 @@ declare global {
         name: string;
         active?: boolean;
         style?: string;
+    }
+    interface ButtonProps {
+        URL: string;
+        name: string;
+        icon?: boolean;
+        path?: string;
+        outline?: boolean;
     }
 }

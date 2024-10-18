@@ -1,5 +1,6 @@
 :root {
     --black-5: rgba(0, 0, 0, 0.05);
+    --carrara-white: #f3f4ef;
 }
 
 * {
@@ -15,4 +16,8 @@ body {
     align-items: center;
     justify-content: flex-start;
     overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--carrara-white);
+    height: 100vh;
+    width: 100vw;
 }

@@ -1,0 +1,43 @@
+.imagery img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 64px;
+    height: calc(100vh - 75px);
+    align-items: center;
+    max-height: 800px;
+}
+
+.textual {
+    height: 100%;
+    justify-content: center;
+    gap: 32px;
+}
+
+.textual h1 {
+    font-size: 24px;
+}
+
+.links {
+    gap: 32px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        padding-top: 32px;
+    }
+    .textual {
+        justify-content: flex-start;
+    }
+}
