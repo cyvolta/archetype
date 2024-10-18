@@ -1,0 +1,15 @@
+.navigation_item {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.navigation_item:hover {
+    background-color: var(--black-5);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navigation_item_active {
+    font-weight: 600;
+}
